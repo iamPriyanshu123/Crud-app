@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { StudentData } from './StudentData'
 import { Table, Button } from 'react-bootstrap';
+import './App.css';
 const App = () => {
   const [data, setData] = useState([]);
   const [name, setName] = useState('');
